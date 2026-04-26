@@ -1,0 +1,23 @@
+# A Common Pitfall in Electrical Engineering: Assuming Everything Is the Same
+
+There are two sides to any engineering discipline: theory and practice. In many fields, the gap between them is manageable—what you learn in theory often carries over reasonably well into real-world applications. In electrical engineering, however, this gap becomes noticeable very early on.
+
+In theory, circuits exist in an ideal world. When we draw circuit diagrams, we assume that only the chosen components affect the system, and that they behave exactly as intended. This simplification is deliberate—it allows us to understand the core behaviour of a circuit without being overwhelmed by unnecessary complexity.
+
+That said, the moment you step into a lab and begin building on a breadboard, that ideal model starts to show its limits.
+
+Real circuits introduce factors that theory initially ignores. Components are not perfect: resistors come with tolerances, wires introduce small but non-negligible resistance and inductance, and even the physical layout of a circuit can influence its behaviour. More broadly, every element in a real system brings some level of parasitic effects—whether resistance, capacitance, or inductance—that can impact performance. On top of that, there are often multiple components that can serve the same purpose, meaning design becomes a matter of choice rather than simply following a diagram.
+
+As a result, a schematic does not translate perfectly into real-world behaviour. However, this does not make schematics flawed or misleading—it highlights their true purpose.
+
+Schematics are not meant to replicate reality in full detail. They are meant to simplify it.
+
+First, circuit diagrams act as a universal language. A physical circuit can be difficult to interpret, with wires, layouts, and component variations obscuring its function. A schematic removes that noise and focuses only on the essential relationships between components. This allows engineers from different backgrounds to understand and communicate designs clearly and efficiently.
+
+Second, schematics provide a reference point. They describe how a circuit should behave under ideal conditions. When real-world measurements differ, engineers can use the schematic to guide troubleshooting—helping distinguish between expected variation and actual design issues.
+
+Finally, schematics make complex systems manageable. In large designs, such as those found in consumer electronics or automotive systems, the physical implementation can be far too intricate to interpret directly. A schematic reveals the underlying structure of the system in a way that a physical layout cannot.
+
+In this sense, a circuit diagram is less like a set of step-by-step instructions and more like a map. It does not capture every detail of the terrain, nor does it account for every obstacle. Instead, it provides a clear and simplified representation of the system, giving engineers a way to navigate the complexity of real-world implementation with direction and intent.
+
+Understanding this distinction is essential. The goal in electrical engineering is not to abandon ideal models, but to build on them—moving from simple representations to more accurate ones as needed. Recognizing the limits of theory, while still using it effectively, is what separates a beginner from a developing engineer.

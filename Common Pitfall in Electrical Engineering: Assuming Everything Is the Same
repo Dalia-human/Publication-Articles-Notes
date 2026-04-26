@@ -1,4 +1,4 @@
-# A Common Pitfall in Electrical Engineering: Assuming Everything Is the Same
+#A Common Pitfall in Electrical Engineering: Assuming Everything Is the Same
 
 There are two sides to any engineering discipline: theory and practice. In many fields, the gap between them is manageable—what you learn in theory often carries over reasonably well into real-world applications. In electrical engineering, however, this gap becomes noticeable very early on.In theory, circuits exist in an ideal world. When we draw circuit diagrams, we assume that only the chosen components affect the system, and that they behave exactly as intended. This simplification is deliberate—it allows us to understand the core behaviour of a circuit without being overwhelmed by unnecessary complexity. That said, the moment you step into a lab and begin building on a breadboard, that ideal model starts to show its limits.
 
